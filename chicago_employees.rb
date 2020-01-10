@@ -8,7 +8,7 @@ employees.each do |employee|
   puts "Title: #{employee["job_titles"]}"
   puts "Department: #{employee["department"]}"
   
-  if employee["salary_or_hourly"] == "salary"
+  if employee["salary_or_hourly"] == "Salary"
     puts "Salary: #{employee["annual_salary"]}"
   else
     puts "Typical Hours: #{employee["typical_hours"]}"
